@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HR2UpdateTool.Presentation (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HR2UpdateTool.Presentation (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

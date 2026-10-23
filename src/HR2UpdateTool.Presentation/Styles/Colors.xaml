@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="Black">#000000</Color>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+
+    <Color x:Key="White">#FFFFFF</Color>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+
+    <Color x:Key="HyperLemon">#F5FF00</Color>
+    <SolidColorBrush x:Key="HyperLemonBrush" Color="{StaticResource HyperLemon}"/>
+
+    <Color x:Key="CoolGrey1">#868C8F</Color>
+    <SolidColorBrush x:Key="CoolGrey1Brush" Color="{StaticResource CoolGrey1}"/>
+
+    <Color x:Key="CoolGrey2">#AAB4B5</Color>
+    <SolidColorBrush x:Key="CoolGrey2Brush" Color="{StaticResource CoolGrey2}"/>
+
+    <Color x:Key="CoolGrey3">#C9D2CE</Color>
+    <SolidColorBrush x:Key="CoolGrey3Brush" Color="{StaticResource CoolGrey3}"/>
+
+</ResourceDictionary>

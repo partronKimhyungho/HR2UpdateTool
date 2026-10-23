@@ -1,0 +1,65 @@
+## ==========================================
+## Build / Output Directories (빌드 결과물)
+## ==========================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+[Tt]mp/
+out/
+build/
+
+## ==========================================
+## Visual Studio / IDE Files (IDE 임시 및 캐시 파일)
+## ==========================================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.cache
+*.dtbcache
+*.pvdk
+*.VC.db
+*.opendb
+
+## ==========================================
+## WinUI 3 / Windows App SDK Specific
+## ==========================================
+# WinUI AppX / MSIX 패키징 결과물
+AppPackages/
+BundleArtifacts/
+PackageSupportObjects/
+_pkginfo.txt
+
+## ==========================================
+## NuGet Packages & Cache
+## ==========================================
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+## ==========================================
+## Operating System System Files (OS 임시 파일)
+## ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## ==========================================
+## Testing & Code Coverage Results
+## ==========================================
+*.UnitTestLog
+*.mdf
+*.ldf
+TestResults/
+Coverage/
